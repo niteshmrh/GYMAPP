@@ -5,8 +5,8 @@ function Login(props) {
     return (
         <div>
             <div>Login page</div>
-            <NavLink to='/singup'>
-                <button>Singup</button>
+            <NavLink to='/registration'>
+                <button>Registration</button>
             </NavLink>
         </div>
     );
