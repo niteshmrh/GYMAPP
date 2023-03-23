@@ -22,7 +22,7 @@
 .category{
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background: var(--caloryCard);
     padding: 2rem;
     gap: 1rem;
     color: white;
@@ -52,7 +52,7 @@
     width: 1rem;
 }
 .category:hover{
-    background-color: orange;
+    background: var(--planCard);
     cursor: pointer;
 }
 

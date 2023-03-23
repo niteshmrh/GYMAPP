@@ -25,12 +25,12 @@
 }
 
 .the-best-ad>span{
-z-index: 2;
+    z-index: 2;
 }
 
 .the-best-ad>div{
     position: absolute;
-    background-color: orange;
+    background: var(--orange);
     width: 5.4rem;
     height: 80%;
     left: 8px;
@@ -83,7 +83,7 @@ margin-top: 1.5rem;
 }
 .hero-button>:nth-child(1){
    color: white;
-   background-color: orange;
+   background-color: #f48915;
    width: 8rem;
    /* border: 2px solid orange;  */
 }
@@ -91,12 +91,12 @@ margin-top: 1.5rem;
     color: white;
     background-color: transparent;
     width: 8rem;
-    border: 2px solid orange; 
+    border: 2px solid #f48915; 
 }
 .hero-right{
     flex: 1;
     position: relative;
-    background-color: orange;
+    background-color: #f48915;
 }
 .hero-right>.btn{
     position: absolute;
