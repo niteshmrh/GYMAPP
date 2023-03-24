@@ -23,11 +23,9 @@
     align-items: center;
     justify-content: flex-start;
 }
-
 .the-best-ad>span{
     z-index: 2;
 }
-
 .the-best-ad>div{
     position: absolute;
     background: var(--orange);
@@ -37,7 +35,6 @@
     border-radius: 3rem;
     z-index: 1;
 }
-
 .hero-text{
     display: flex;
     flex-direction: column;
@@ -55,14 +52,12 @@
     letter-spacing: 1px;
     width: 80%;
 }
-
 .figure{
 display: flex;
 gap: 2rem;
 margin-top: 1.5rem;
 /* color: white; */
 }
-
 .figure-out{
     display: flex;
     flex-direction: column;
@@ -111,7 +106,7 @@ margin-top: 1.5rem;
     background-color:darkslategrey;
     width: fit-content;
     padding: 1rem;
-    align-items: start;
+    align-items: flex-start;
     border-radius: 5px;
     position: absolute;
     right: 4rem;

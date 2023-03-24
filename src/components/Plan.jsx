@@ -2,6 +2,7 @@ import React from 'react';
 import './Plan.css';
 import {plansData} from '../data/plansData';
 import whiteTick from '../assets/whiteTick.png'
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 function Plan(props) {
     return (
@@ -30,7 +31,7 @@ function Plan(props) {
                         </div>
 
                         <div>
-                            <span>see more benifits -></span>
+                            <span>see more benifits <ArrowRightAltIcon/></span>
                         </div>
                         <button className='btn'>Join Now</button>
                     </div>
