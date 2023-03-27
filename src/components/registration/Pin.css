@@ -1,0 +1,8 @@
+li>span{
+    font-weight: bolder;
+}
+li>span:nth-child(2){
+    border: 1px solid grey;
+    padding: 2px;
+    border-radius: 5px;
+}
