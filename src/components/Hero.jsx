@@ -11,6 +11,7 @@ function Hero(props) {
     return (
         <div>
             <div className='hero'>
+                <div className="blur hero-blur"></div>
                 <div className="hero-left">
                     <Header/>
                     <div className='the-best-ad'>

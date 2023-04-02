@@ -12,5 +12,5 @@ code {
     monospace;
 }
 .App{
-  background-color: darkslategrey;
+  background-color: var(--appColor);
 }

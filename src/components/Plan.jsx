@@ -2,11 +2,14 @@ import React from 'react';
 import './Plan.css';
 import {plansData} from '../data/plansData';
 import whiteTick from '../assets/whiteTick.png'
-import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+// import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+// ArrowRightAlt
 
 function Plan(props) {
     return (
         <div className='plans-container'>
+            <div className="blur plans-blur-1"></div> 
+            <div className="blur plans-blur-2"></div> 
             <div className='programs-header'>
                 <span className='stroke-text'>Ready TO START</span>
                 <span>YOUR JOURNEY</span>
@@ -31,7 +34,7 @@ function Plan(props) {
                         </div>
 
                         <div>
-                            <span>see more benifits <ArrowRightAltIcon/></span>
+                            <span  className='see'>see more benifits</span>
                         </div>
                         <button className='btn'>Join Now</button>
                     </div>
