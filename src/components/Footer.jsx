@@ -10,11 +10,11 @@ function Footer(props) {
     <div className="footer-container">
       <hr />
       <div className="footer">
-       <div className="social-links">
-       <img src={Github} alt="" />
-        <img src={LinkedIn} alt="" />
-        <img src={Instgram} alt="" />
-       </div>
+        <div className="social-links">
+          <img src={Github} alt="" />
+          <img src={LinkedIn} alt="" />
+          <img src={Instgram} alt="" />
+        </div>
         <div className="logo-f">
           <img src={logo} alt="" />
         </div>

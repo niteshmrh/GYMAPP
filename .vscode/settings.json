@@ -1,12 +1,5 @@
 {
-    "files.autoSave": "onFocusChange",
-    "editor.wordWrap": "on",
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.codeActionsOnSave": {
-
-        
-    },
-    "editor.defaultFormatter": "vscode.configuration-editing",
-    "editor.definitionLinkOpensInPeek": true,
-    "editor.experimental.asyncTokenization": true
+    "files.autoSave": "onWindowChange",
+    "html.format.extraLiners": "",
+    "notebook.formatOnSave.enabled": true
 }
