@@ -55,6 +55,7 @@ function Hero(props) {
               <span>
                 <NumberCounter
                   end={978}
+                  start={800}
                   delay={2}
                   className="increment"
                   preFix="+"
