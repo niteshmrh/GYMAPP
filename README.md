@@ -1,4 +1,4 @@
-# Demo <a href="https://nitesh-gymapp.netlify.app/" alt="gym app demo">Live</a>
+# Demo <a href="https://nitesh-gymapp.netlify.app/" alt="gym app demo" target="_blank">Live</a>
 
 # Getting Started with Create React App
 
